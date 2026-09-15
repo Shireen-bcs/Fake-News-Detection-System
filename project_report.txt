@@ -1,0 +1,26 @@
+Fake News Detection System
+-----------------------------
+Name: Shireen Shaikh Naseer
+Date: 10 July 2025
+
+Objective:
+Classify news articles as real or fake using Natural Language Processing and Machine Learning.
+
+Tech Stack:
+Python, Scikit-learn, NLTK, TF-IDF, Logistic Regression
+
+Description:
+The system uses a labeled dataset of news articles. After preprocessing (tokenization, stopword removal), it converts text into numeric features using TF-IDF vectorization. Then, it trains a Logistic Regression classifier to predict whether a news piece is fake or real.
+
+Key Features:
+- End-to-end NLP pipeline: clean → vectorize → classify
+- High accuracy using Logistic Regression
+- Visualization of model performance with confusion matrix
+
+Use Case:
+Ideal for media agencies or social platforms to filter out disinformation.
+
+How to Run:
+1. Open 'fake_news_detection.ipynb' in Google Colab.
+2. Run all cells step by step.
+3. Upload your own dataset or use the default 'train.csv'.
